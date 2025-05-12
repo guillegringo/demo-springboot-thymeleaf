@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Acerca de</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+<body>
+    <div th:replace="fragments/header :: header"></div>
+    <main>
+        <h2>Acerca de esta aplicación</h2>
+        <p>Este sitio fue reconstruido con Spring Boot y Thymeleaf, replicando un sitio existente.</p>
+    </main>
+    <div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>
